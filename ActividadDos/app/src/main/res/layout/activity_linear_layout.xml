@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:background="@drawable/emblema_mujer_bn_gobierno_de_mexico"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido, Ángel"
+        android:textColor="@color/GobiernoPrincipal"
+        android:typeface="sans"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:paddingHorizontal="15dp">
+
+        <Button
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:backgroundTint="@color/GobiernoPrincipal"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"
+            android:text="Consultar información personal" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:padding="15dp"
+            android:backgroundTint="@color/GobiernoPrincipal"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"
+            android:text="Tramitar acta de nacimiento" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:padding="15dp"
+            android:backgroundTint="@color/GobiernoPrincipal"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"
+            android:text="Solicitar asistencia adicional" />
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/btnRegresar"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:backgroundTint="@color/ColorAmarilloNaconMiado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/baseline_exit_to_app_24"
+        android:drawableTint="@color/white"
+        android:text="Salir"
+        android:gravity="center"
+        android:layout_gravity="center"
+
+        />
+
+</LinearLayout>

@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    android:gravity="center"
+    android:padding="25dp">
+
+    <TableRow>
+        <TextView
+            android:layout_column="0"
+            android:layout_span="3"
+            android:text="Inventario actual"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="@color/NaranjaDraco"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        >
+        <TextView
+            android:layout_column="0"
+            android:layout_span="3"
+            android:textAlignment="textEnd"
+            android:text="Corte: 24/08/2025 23:08"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:text="ID"
+            />
+        <TextView
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:text="Descripción"
+            />
+        <TextView
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:text="Cantidad"
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:textAlignment="center"
+            android:text="1"
+            />
+        <TextView
+            android:textAlignment="center"
+            android:text="Rollo de emplayo transparente"
+            />
+        <TextView
+            android:textAlignment="center"
+            android:text="10"
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:textAlignment="center"
+            android:text="2" />
+        <TextView
+            android:textAlignment="center"
+            android:text="Casco de seguridad blanco" />
+        <TextView
+            android:textAlignment="center"
+            android:text="15" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:textAlignment="center"
+            android:text="3" />
+        <TextView
+            android:textAlignment="center"
+            android:text="Guantes de carnaza" />
+        <TextView
+            android:textAlignment="center"
+            android:text="30" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:textAlignment="center"
+            android:text="4" />
+        <TextView
+            android:textAlignment="center"
+            android:text="Lentes de seguridad" />
+        <TextView
+            android:textAlignment="center"
+            android:text="20" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:textAlignment="center"
+            android:text="5" />
+        <TextView
+            android:textAlignment="center"
+            android:text="Chaleco reflejante" />
+        <TextView
+            android:textAlignment="center"
+            android:text="12" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:textAlignment="center"
+            android:text="6" />
+        <TextView
+            android:textAlignment="center"
+            android:text="Bota de seguridad dieléctrica" />
+        <TextView
+            android:textAlignment="center"
+            android:text="8" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:textAlignment="center"
+            android:text="7" />
+        <TextView
+            android:textAlignment="center"
+            android:text="Extintor PQS 9kg" />
+        <TextView
+            android:textAlignment="center"
+            android:text="5" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:textAlignment="center"
+            android:text="8" />
+        <TextView
+            android:textAlignment="center"
+            android:text="Juego de llaves combinadas" />
+        <TextView
+            android:textAlignment="center"
+            android:text="6" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:textAlignment="center"
+            android:text="9" />
+        <TextView
+            android:textAlignment="center"
+            android:text="Bidón metálico 20L" />
+        <TextView
+            android:textAlignment="center"
+            android:text="4" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:textAlignment="center"
+            android:text="10" />
+        <TextView
+            android:textAlignment="center"
+            android:text="Cinta teflón industrial" />
+        <TextView
+            android:textAlignment="center"
+            android:text="25" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:textAlignment="center"
+            android:text="11" />
+        <TextView
+            android:textAlignment="center"
+            android:text="Brocas para taladro 1/2&quot;" />
+        <TextView
+            android:textAlignment="center"
+            android:text="18" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:textAlignment="center"
+            android:text="90"
+            />
+        <TextView
+            android:textAlignment="center"
+            android:text="Cuerda amarilla 300m"
+            />
+        <TextView
+            android:textAlignment="center"
+            android:text="2"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="10dp"
+        >
+        <LinearLayout
+            android:layout_span="3"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Generar Baja"
+                android:backgroundTint="@color/GrisLindo"
+                android:layout_marginRight="5dp"
+                />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/NaranjaDraco"
+                android:text="Agregar productos"
+                />
+
+        </LinearLayout>
+    </TableRow>
+
+
+    <TableRow
+        android:layout_marginTop="40dp"
+        >
+        <Button
+            android:id="@+id/btnRegresar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="3"
+            android:layout_gravity="center"
+            android:drawableTint="@color/white"
+            android:backgroundTint="@color/material_dynamic_primary10"
+            android:drawableLeft="@drawable/baseline_exit_to_app_24"
+            android:text="Regresar"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+    </TableRow>
+
+
+</TableLayout>

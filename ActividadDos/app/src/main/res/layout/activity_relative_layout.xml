@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="25dp">
+
+    <ImageView
+        android:id="@+id/logoSHCP"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/shcp" />
+
+    <TextView
+        android:id="@+id/Titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Portal de servidor público"
+        android:textSize="30sp"
+        android:layout_below="@id/logoSHCP"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/GobiernoPrincipal"
+
+        android:layout_centerHorizontal="true"
+        />
+
+    <LinearLayout
+        android:id="@+id/LabelRFC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/Titulo"
+        android:layout_marginTop="20dp"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/outline_account_box_24"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="RFC Corto"
+            />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:text="..."
+        android:textStyle="italic"
+        android:layout_below="@id/LabelRFC"
+        android:layout_marginTop="5dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/labelContrasena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/usuario"
+        android:layout_marginTop="20dp"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/lock"
+            android:backgroundTint="@color/black"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Contraseña"
+            />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/contrasena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:text="..."
+        android:textStyle="italic"
+        android:layout_below="@id/labelContrasena"
+        android:layout_marginTop="5dp"
+        />
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iniciar sesión"
+        android:backgroundTint="@color/GobiernoPrincipal"
+        android:textStyle="bold"
+        android:layout_below="@id/contrasena"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/btnRegresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/GrisLindo"
+        android:drawableLeft="@drawable/baseline_exit_to_app_24"
+        android:drawableTint="@color/white"
+        android:layout_marginBottom="?attr/actionBarSize"
+        />
+
+
+
+</RelativeLayout>
