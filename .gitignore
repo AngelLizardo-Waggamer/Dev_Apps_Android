@@ -27,6 +27,9 @@ local.properties
 *.keystore
 *.jks
 
+# === APKS DEBUG
+!/ApksFinales/*.apk
+
 # === OS junk ===
 .DS_Store
 Thumbs.db
