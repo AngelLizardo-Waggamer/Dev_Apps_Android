@@ -1,0 +1,57 @@
+# Ignore all gitignore files
+**/.gitignore
+
+# But keep the one at the root
+!/.gitignore
+
+# === Android Studio / IntelliJ ===
+.idea/
+*.iml
+*.ipr
+*.iws
+.gradle/
+local.properties
+.gradle/
+**/build/
+**/captures/
+**/.cxx/
+**/externalNativeBuild/
+
+# === Android specific ===
+*.apk
+*.ap_
+*.dex
+*.class
+*.so
+*.jar
+*.keystore
+*.jks
+
+# === OS junk ===
+.DS_Store
+Thumbs.db
+
+# === Logs & caches ===
+*.log
+*.cache
+*.temp
+
+# === Kotlin/Java ===
+*.kt~
+*.java~
+*.class
+
+# === Gradle ===
+.gradle/
+gradle-app.setting
+**/gradle-wrapper.jar
+!gradle-wrapper.properties  # keep wrapper settings file
+!gradlew                    # keep wrapper script
+!gradlew.bat
+
+# === Android Studio Generated ===
+.navigation/
+outputs.json
+
+# === Misc ===
+*.hprof

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="NaranjaDraco">#FFFF7045</color>
+    <color name="GobiernoPrincipal">#FF9B2247</color>
+    <color name="ColorAmarilloNaconMiado">#FFA57F2C</color>
+    <color name="GrisLindo">#FFA0A1A4</color>
+    <color name="VerdeNocodrilo">#FF2D5128</color>
+</resources>
